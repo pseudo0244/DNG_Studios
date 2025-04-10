@@ -1,0 +1,220 @@
+/* Main Application Styles */
+QMainWindow, QDialog {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+QLabel {
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #ffffff;
+}
+
+QPushButton:hover {
+    background-color: #444444;
+}
+
+QPushButton:pressed {
+    background-color: #7c4dff;
+}
+
+/* Sidebar Styles */
+#sidebar {
+    background-color: #2d2d2d;
+    border-right: 1px solid #3d3d3d;
+}
+
+#profileSection {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #3d3d3d;
+    padding: 15px;
+}
+
+#userAvatar {
+    background-color: #7c4dff;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#username {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#navButton {
+    background-color: transparent;
+    color: #cccccc;
+    text-align: left;
+    padding: 12px 20px;
+    border-radius: 0;
+    font-size: 14px;
+    border-left: 3px solid transparent;
+}
+
+#navButton:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#navButton[active="true"] {
+    background-color: #333333;
+    color: #7c4dff;
+    border-left: 3px solid #7c4dff;
+}
+
+/* Search Box */
+#searchBox {
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: #ffffff;
+}
+
+#searchBox:focus {
+    background-color: #3d3d3d;
+    border: 1px solid #7c4dff;
+}
+
+/* Score Cards */
+#scoreCard {
+    background-color: #333333;
+    border-radius: 4px;
+    padding: 0;
+}
+
+#scoreCard:hover {
+    background-color: #3d3d3d;
+}
+
+#scoreThumbnail {
+    background-color: #f5f5f5;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#scoreTitle {
+    color: #ffffff;
+    padding: 8px 12px 0 12px;
+}
+
+#scoreStatus {
+    color: #aaaaaa;
+    font-size: 12px;
+    padding: 0 12px 8px 12px;
+}
+
+/* Bottom Buttons */
+#bottomButton {
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+#bottomButton:hover {
+    background-color: #444444;
+}
+
+/* Editor Toolbar */
+#editorToolbar {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+#toolbarButton {
+    background-color: #7c4dff;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+
+#toolbarButton:hover {
+    background-color: #9575ff;
+}
+
+/* Score Editor */
+#scoreEditorArea {
+    background-color: #212121;
+}
+
+/* New Score Dialog */
+#newScoreDialog {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+#createScoreButton {
+    background-color: #7c4dff;
+    color: white;
+    font-weight: bold;
+}
+
+#createScoreButton:hover {
+    background-color: #9575ff;
+}
+
+/* Form Elements */
+QLineEdit {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 8px;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #7c4dff;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background-color: #2d2d2d;
+    width: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #555555;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #7c4dff;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    background-color: #2d2d2d;
+    height: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #555555;
+    min-width: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #7c4dff;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+}
